@@ -10,8 +10,8 @@ body {
   color:blue;
 }
 
-.bod1{
-  font-family: Courier,Courier New,Times New Roman;
+.something{
+  font-family:'Courier','Courier New','Times New Roman';
   margin: 30px;
   padding: 250px 0;
   background-image:
