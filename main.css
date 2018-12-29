@@ -1,11 +1,7 @@
 
-
-h1 {
+.header{
   color:#FF00FF;
   text-align:center;
-}
-
-.header{
   background image:
     url(Space.jpeg);
   background size:cover;
