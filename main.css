@@ -6,3 +6,13 @@
     url(Space.jpeg);
   background size:cover;
 }
+
+.hero{
+  font-family:Courier,Courier New,Times New Roman;
+  margin: 30px;
+  padding: 250px 0;
+  background image:
+    url(Space.jpeg);
+  background size:cover;
+  color:#ffffff;
+}
