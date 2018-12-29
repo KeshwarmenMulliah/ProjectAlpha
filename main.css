@@ -6,10 +6,11 @@ body {
 }
 
 .header{
+  font-family:'Courier';
   color:blue;
 }
 
-.hero{
+.bod1{
   font-family: Courier,Courier New,Times New Roman;
   margin: 30px;
   padding: 250px 0;
