@@ -21,7 +21,7 @@ body {
 }
 
 .nav{
- justify-content:center;
+ justify-content:right;
  display:flex;
  flex-wrap:wrap;
 }
