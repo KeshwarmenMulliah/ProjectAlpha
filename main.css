@@ -19,3 +19,9 @@ body {
   background-size:cover;
   color:#ffffff;
 }
+
+.nav{
+ justify-content:center;
+ display:flex;
+ flex-wrap:wrap;
+}
