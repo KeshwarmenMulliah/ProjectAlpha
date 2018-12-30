@@ -18,6 +18,7 @@ body {
   background-image:
     url("Space.jpeg");
   background-size:cover;
+  background-fill:no-repeat,repeat;
   color:#ffffff;
 }
 
