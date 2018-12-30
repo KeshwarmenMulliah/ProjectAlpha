@@ -12,7 +12,8 @@ body {
 
 .something{
   font-family:'Courier','Courier New','Times New Roman';
-  margin: 0;
+  border:0;
+  margin: 30px;
   padding: 250px 0;
   background-image:
     url("Space.jpeg");
