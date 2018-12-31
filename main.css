@@ -28,6 +28,6 @@ body {
 
 .nav{
  justify-content:right;
- display:flex;
- flex-wrap:wrap;
+ display:grid;
+ grid-template-columns:1fr 1fr 1fr;
 }
