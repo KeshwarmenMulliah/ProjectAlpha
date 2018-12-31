@@ -24,13 +24,7 @@ body {
 	opacity:50%;
 }
 
-.text{
-  font-family:'Courier','Courier New','Times New Roman';
-  border:0;
-  margin: 30px;
-  padding: 250px 0;
-  color:#ffffff;
-}
+
 
 * {box-sizing:border-box}
 
@@ -80,7 +74,7 @@ body {
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
+  padding: 250px 0;
   position: absolute;
   bottom: 8px;
   width: 100%;
