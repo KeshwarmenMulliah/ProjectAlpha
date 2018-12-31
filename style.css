@@ -14,8 +14,8 @@ h3{
   color:#ffffff;
   background-image:
    url("Space.jpeg");
-  padding:250px;
+  padding:250px 0;
   justify-self:center;
-  background-size:fill;
-  width:100%;
+  margin:30px
+  background-size:cover;
  }
