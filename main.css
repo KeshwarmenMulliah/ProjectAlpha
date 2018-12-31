@@ -14,18 +14,6 @@ body {
   color:#ffffff;
 }
 
-.something{
-  font-family:'Courier','Courier New','Times New Roman';
-  border:0;
-  margin: 30px;
-  padding: 250px 0;
-  background-image:
-    url("Space.jpeg");
-  background-size:cover;
-  background-fill:no-repeat,repeat;
-  color:#ffffff;
-}
-
 .nav{
  display:grid;
  grid-template-columns:1fr 1fr 1fr;
