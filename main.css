@@ -33,4 +33,5 @@ body {
 
 .nav div:nth-child(odd){
 	background-color:white;
+	opacity:50%;
 }
