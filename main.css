@@ -32,5 +32,5 @@ body {
 }
 
 .nav div:nth-child(odd){
-	background-color:#ffffff;
+	background-color:green;
 }
