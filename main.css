@@ -24,6 +24,14 @@ body {
 	opacity:50%;
 }
 
+.text1{
+  font-family:'Courier','Courier New','Times New Roman';
+  border:0;
+  margin: 30px;
+  padding: 250px 0;
+  color:#ffffff;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
