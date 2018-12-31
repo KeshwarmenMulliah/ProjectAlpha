@@ -8,7 +8,7 @@ body {
 .header{
   font-family:'Courier';
   background-image:
-    url("headerback.jpeg");
+    url("headerback.jpg");
   background-size:cover;
   background-fill:no-repeat,repeat;
   color:#ffffff;
