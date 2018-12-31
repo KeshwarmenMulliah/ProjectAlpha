@@ -1,6 +1,14 @@
 .grid{
  display:grid
  grid-template-columns:1fr 1fr 1fr;
+ grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+ grid-template-areas:
+  "home discussions about "
+  "welcome welcome welcome"
+  "video video video"
+  "posts posts posts"
+  "footer footer footer";
+ grid-gap:1px;
 ]
 
 .grid div:nth-child(){
@@ -10,3 +18,30 @@ background-color:red;
 .grid div:nth-child(){
 background-color:blue;
 }
+
+.home{
+ grid-area:home;
+ }
+ 
+.welcome{
+ grid-area:welome;
+ }
+ 
+.video{
+ grid-area:video;
+ }
+ 
+.posts{
+ grid-area:posts;
+ }
+ 
+.footer{
+ grid-area:footer;
+ }
+ .discussions{
+ grid-area:discussions;
+ }
+ .about{
+ grid-area:about;
+ }
+ 
