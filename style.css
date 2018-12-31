@@ -5,16 +5,12 @@ body{
 }
 
 
-h3{
- color:red;
-}
-
  .welcome1{
   font-family:'Courier','Courier New','Times New Roman';
   color:#ffffff;
   background-image:
    url("Space.jpeg");
-  padding:250px 0;  
+  padding:250px;  
   margin:30px;
   background-size:cover;
  }
