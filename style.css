@@ -1,3 +1,12 @@
+body{
+ background-image:
+  url("headerback.jpeg");
+ background-size:cover;
+}
+
+
+
+
 .grid{
  display:grid
  grid-template-columns:1fr 1fr 1fr;
@@ -20,7 +29,8 @@ background-color:blue;
 }
 
 .home{
- grid-area:home;
+  grid-area:home;
+ padding:30px;
  }
  
 .welcome{
@@ -39,10 +49,12 @@ background-color:blue;
  grid-area:footer;
  }
  .discussions{
- grid-area:discussions;
+  grid-area:discussions;
+  padding:30px;
  }
  .about{
- grid-area:about;
+  grid-area:about;
+  padding:30px;
  }
  .welcome1{
   font-family:'Courier','Courier New','Times New Roman';
