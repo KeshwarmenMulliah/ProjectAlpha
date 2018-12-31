@@ -5,63 +5,6 @@ body{
 }
 
 
-
-
-.grid{
-  display:grid
-  grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-   "home discussions about "
-   "welcome welcome welcome"
-   "video video video"
-   "posts posts posts"
-   "footer footer footer";
-  grid-gap:1px;
-]
-
-.grid div:nth-child(){
- background-color:red;
+h3{
+ color:red;
 }
-
-.grid div:nth-child(){
- background-color:blue;
-}
-
-.home{
-  grid-area:home;
-  padding:30px;
- }
- 
-.welcome{
- grid-area:welome;
- }
- 
-.video{
-  grid-area:video;
- }
- 
-.posts{
-  grid-area:posts;
- }
- 
-.footer{
-  grid-area:footer;
- }
- .discussions{
-   grid-area:discussions;
-   padding:30px;
- } 
- .about{
-  grid-area:about;
-  padding:30px;
- }
- .welcome1{
-  font-family:'Courier','Courier New','Times New Roman';
-  color:#ffffff;
-  background-image:
-   url("Space.jpeg");
-  padding:250px;
-  background-size:cover;
-  width:100%;
- }
