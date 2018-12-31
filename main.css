@@ -3,13 +3,14 @@ body {
 	margin: 0;
 	text-align: center;
 	width: 100%;
+	  background-image:
+    	   url("Bodyback.jpg");
+  	  background-size:cover;
 }
 
 .header{
   font-family:'Courier';
-  background-image:
-    url("headerback.jpg");
-  background-size:cover;
+
   color:#ffffff;
 }
 
