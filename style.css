@@ -8,3 +8,13 @@ body{
 h3{
  color:red;
 }
+
+ .welcome1{
+  font-family:'Courier','Courier New','Times New Roman';
+  color:#ffffff;
+  background-image:
+   url("Space.jpeg");
+  padding:250px;
+  background-size:cover;
+  width:100%;
+ }
