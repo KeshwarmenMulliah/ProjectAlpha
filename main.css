@@ -10,7 +10,6 @@ body {
   background-image:
     url("headerback.jpg");
   background-size:cover;
-  background-fill:no-repeat,repeat;
   color:#ffffff;
 }
 
