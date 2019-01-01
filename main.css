@@ -35,22 +35,22 @@
  
 .welcome{
  grid-area:welcome;
- background-color:red;
+ 
  }
  
 .video{
   grid-area:video;
-  background-color:white;
+
  }
  
 .posts{
   grid-area:posts;
-  background-color:#ff00ff;
+
  }
  
 .footer{
   grid-area:footer;
-  background-color:green;
+ 
  }
 
 .nav{
@@ -59,7 +59,7 @@
 }
 
 .nav div:nth-child(odd){
-	background-color:white;
-	opacity:50%;
+background-color:white;
+opacity:50%;
 }
 
