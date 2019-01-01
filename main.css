@@ -29,7 +29,7 @@
   grid-gap:10px;
 }
 .video{
-  text-align:center;
+ justify-content:center;
 }
 
  
@@ -54,12 +54,12 @@
  }
 
 .nav{
- display:grid;
- grid-template-columns:1fr 1fr 1fr;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
 }
 
 .nav div:nth-child(odd){
-background-color:white;
-opacity:50%;
+   background-color:white;
+   opacity:50%;
 }
 
