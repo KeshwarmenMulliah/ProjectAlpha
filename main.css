@@ -2,6 +2,7 @@ body{
  background-image:
   url("headerback.jpg");
  background-size:cover;
+ text-align:center;
 }
 
 
@@ -29,11 +30,11 @@ body{
   grid-gap:1px;
 ]
 
-.grid div:nth-child(){
+.grid div:nth-child(odd){
  background-color:red;
 }
 
-.grid div:nth-child(){
+.grid div:nth-child(2){
  background-color:blue;
 }
 
