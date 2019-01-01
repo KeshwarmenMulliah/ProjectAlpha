@@ -15,7 +15,7 @@
 .grid {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
    "home discussions about"
    "welcome welcome welcome"
@@ -26,11 +26,6 @@
 }
 
 
-.home{
-  grid-area:home;
-  padding:50px;
-  text-align:center;
- }
  
 .welcome{
  grid-area:welcome;
@@ -51,14 +46,3 @@
   grid-area:footer;
   background-color:green;
  }
- .discussions{
-   grid-area:discussions;
-   padding:50px;
-   text-align:center;
- } 
- .about{
-  grid-area:about;
-  padding:50px;
-  text-align:center;
- }
- 
