@@ -15,7 +15,7 @@
 .grid {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
   grid-template-areas:
    "home discussions about"
    "welcome welcome welcome"
@@ -44,7 +44,7 @@
  
 .posts{
   grid-area:posts;
-  background_color:#ff00ff;
+  background-color:#ff00ff;
  }
  
 .footer{
