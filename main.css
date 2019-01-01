@@ -45,3 +45,13 @@
   grid-area:footer;
   background-color:green;
  }
+
+nav ul{
+ display:inline;
+}
+
+nav li{
+ display:inline;
+ margin:0;
+ border:1px solid #000;
+}
