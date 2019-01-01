@@ -29,17 +29,11 @@ body{
   grid-gap:1px;
 ]
 
-.grid div:nth-child(odd){
- background-color:red;
-}
-
-.grid div:nth-child(2){
- background-color:blue;
-}
 
 .home{
   grid-area:home;
-  padding:30px;
+  padding:50px;
+  text-align:center;
  }
  
 .welcome{
@@ -59,10 +53,12 @@ body{
  }
  .discussions{
    grid-area:discussions;
-   padding:30px;
+   padding:50px;
+   text-align:center;
  } 
  .about{
   grid-area:about;
-  padding:30px;
+  padding:50px;
+  text-align:center;
  }
  
