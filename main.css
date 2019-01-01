@@ -6,10 +6,10 @@
   color:#ffffff;
   background-image:
    url("Space.jpeg");
-  padding:250px;  
-  margin:0;
+  padding:250px 0 250px 0;  
+  margin:30px;
   background-size:cover;
-  width:100%;
+
  }
 
 .grid {
@@ -23,7 +23,9 @@
    "footer";
   grid-gap:10px;
 }
-
+.video{
+  text-align:center;
+}
 
  
 .welcome{
@@ -46,12 +48,7 @@
   background-color:green;
  }
 
-nav ul{
- display:inline;
-}
-
-nav li{
- display:inline;
- margin:0;
- border:1px solid #000;
+.nav{
+ display:flex;
+ flex-wrap:wrap;
 }
