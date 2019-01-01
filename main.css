@@ -12,10 +12,10 @@
   width:100%;
  }
 
-.grid{
+.grid {
   display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
    "home discussions about"
    "welcome welcome welcome"
@@ -33,7 +33,7 @@
  }
  
 .welcome{
- grid-area:welome;
+ grid-area:welcome;
  background-color:red;
  }
  
