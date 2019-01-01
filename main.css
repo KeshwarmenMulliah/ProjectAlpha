@@ -1,11 +1,7 @@
-body{
- background-image:
-  url("headerback.jpg");
- background-size:cover;
-}
 
 
- .something {
+
+ .welcome {
   font-family:'Courier','Courier New','Times New Roman';
   color:#ffffff;
   background-image:
@@ -21,12 +17,12 @@ body{
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows:1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-   "home discussions about "
+   "home discussions about"
    "welcome welcome welcome"
    "video video video"
    "posts posts posts"
    "footer footer footer";
-  grid-gap:1px;
+  grid-gap:10px;
 ]
 
 
@@ -38,18 +34,22 @@ body{
  
 .welcome{
  grid-area:welome;
+ background-color:red;
  }
  
 .video{
   grid-area:video;
+  background-color:white;
  }
  
 .posts{
   grid-area:posts;
+  background_color:#ff00ff;
  }
  
 .footer{
   grid-area:footer;
+  background-color:green;
  }
  .discussions{
    grid-area:discussions;
