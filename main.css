@@ -30,6 +30,8 @@
 }
 .video{
  justify-content:center;
+ grid-area:video;
+ right:30px;
 }
 
  
@@ -38,10 +40,6 @@
  
  }
  
-.video{
-  grid-area:video;
-  right:10px;
- }
  
 .posts{
   grid-area:posts;
