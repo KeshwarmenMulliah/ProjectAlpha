@@ -2,6 +2,7 @@
  background-image:
   url("headerback.jpg");
  background-size:cover;
+ justify-content:center;
 }
 
 
@@ -25,7 +26,6 @@
    "video"
    "posts"
    "footer";
-  grid-gap:10px;
 }
 .video{
  justify-content:center;
@@ -51,11 +51,11 @@
  }
 
 <!---Navigation bar--->
-ul.nav{
- list-style-type: none; 
+ul.nav{ 
  margin: 0;
  padding: 0:
  background-color:#f1f1f1;
+ list-style-type:none;
  position:fixed;
  top:0;
  width:100%;
