@@ -56,10 +56,10 @@
 .nav{
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
-}
+ }
 
 .nav div:nth-child(odd){
    background-color:white;
    opacity:50%;
-}
+ }
 
