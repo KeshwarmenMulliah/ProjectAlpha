@@ -53,9 +53,9 @@
 
 <!---Navigation bar--->
 ul{
- list-style-type:none;
- margin:0;
- padding:0:
+ list-style-type: none; 
+ margin: 0;
+ padding: 0:
  background-color:#f1f1f1;
  position:fixed;
  top:0;
@@ -67,15 +67,15 @@ li{
 }
 
 li a{
- display:block:
- color:white;
+ display: block:
+ color: white;
  text-align: center;
  padding: 14px 16px;
- text-decoration: none;
+ text-decoration:none;
 }
 
 li a.active{
- background-color:#4CAF50;
+ background-color: #4CAF50;
  color:white;
 }
 
