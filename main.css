@@ -14,13 +14,15 @@
    url("Space.jpeg");
   padding:250px 0 250px 0;  
   background-size:cover;
+  width:100%;
+  position:absolute;
 
  }
 
 .grid {
   display:grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns:1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr;
   grid-template-areas:
    "welcome"
    "video"
@@ -28,7 +30,7 @@
    "footer";
 }
 .video{
- justify-content:center;
+
  grid-area:video;
  
 }
