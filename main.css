@@ -60,6 +60,7 @@ ul.a{
  position:fixed;
  top:0;
  width:100%;
+ overflow:hidden;
 } 
 
 li{
@@ -79,10 +80,11 @@ li a.active{
  color:white;
 }
 
-.active{
- background-color:lightskyblue;
-}
 
 li a:hover {
   background-color: #111;
 }
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
