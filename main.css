@@ -31,7 +31,7 @@
 .video{
  justify-content:center;
  grid-area:video;
- right:30px;
+ margin:30px;
 }
 
  
