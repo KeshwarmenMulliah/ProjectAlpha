@@ -2,7 +2,6 @@
  background-image:
   url("headerback.jpg");
  background-size:cover;
- justify-content:center;
 }
 
 
@@ -13,26 +12,26 @@
   background-image:
    url("Space.jpeg");
   padding:250px 0 250px 0;  
+  margin:30px;
   background-size:cover;
-  width:100%;
-  position:absolute;
 
  }
 
 .grid {
   display:grid;
-  grid-template-columns:1fr;
-  grid-template-rows:1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
    "welcome"
    "video"
    "posts"
    "footer";
+  grid-gap:10px;
 }
 .video{
-
+ justify-content:center;
  grid-area:video;
- 
+ margin:30px;
 }
 
  
@@ -52,40 +51,19 @@
  
  }
 
-<!---Navigation bar--->
-ul.nav{ 
- margin: 0;
- padding: 0:
- background-color:#f1f1f1;
- list-style-type:none;
- position:fixed;
- top:0;
- width:100%;
- overflow:hidden;
-} 
+.nav{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  text-align:center;
+  padding:30px;
+ }
 
-li{
- float:left;
+.nav div:nth-child(odd){
+   background-color:white;
+   opacity:50%;
+ }
+
+.1{
+ padding-top:15px;
+ padding-bottom: 15px;
 }
-
-li a{
- display: block:
- color: white;
- text-align: center;
- padding: 14px 16px;
- text-decoration:none;
-}
-
-li a.active{
- background-color: #4CAF50;
- color:white;
-}
-
-
-li a:hover {
-  background-color: #111;
-}
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
