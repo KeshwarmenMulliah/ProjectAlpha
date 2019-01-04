@@ -2,6 +2,7 @@
  background-image:
   url("headerback.jpg");
  background-size:cover;
+  right:0;
 }
 
 .grid {
