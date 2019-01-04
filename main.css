@@ -98,7 +98,7 @@ li a:hover:not(.active) {
   height:500px
   position: relative;
   top: 36px;
-  margin: auto;
+  margin: 10%;
 }
 
 /* Hide the images by default */
