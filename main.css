@@ -4,14 +4,6 @@
  background-size:cover;
 }
 
-.welcome{
- position:relative;
- top:47px;
-}
-
-
-
-
 .grid {
   display:grid;
   grid-template-columns: 1fr;
@@ -32,7 +24,7 @@
  
 .welcome{
  grid-area:welcome;
- 
+ top:47px;
  }
  
  
