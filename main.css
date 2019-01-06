@@ -10,7 +10,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-   "welcome"
+   "slideshow-container"
    "video"
    "posts"
    "footer";
@@ -23,8 +23,8 @@
 }
 
  
-.welcome{
- grid-area:welcome;
+.slideshow-container{
+ grid-area:slideshow-container;
  
  }
  
