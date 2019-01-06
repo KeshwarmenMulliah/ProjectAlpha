@@ -24,12 +24,6 @@
 }
 
  
-.slideshow-container{
- grid-area:slideshow-container;
- 
- }
- 
- 
 .posts{
   grid-area:posts;
 
@@ -86,6 +80,7 @@
   max-width: 100%;
   position: relative;
   margin:auto;
+  grid-area:slideshow-container;
 }
 
 /* Hide the images by default */
