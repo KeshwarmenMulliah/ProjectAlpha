@@ -8,9 +8,8 @@
 .grid {
   display:grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-   "nav"
    "slideshow-container"
    "video"
    "posts"
@@ -96,6 +95,7 @@ li a:hover:not(.active) {
   max-width: 100%;
   position: relative;
   margin:auto;
+  top:50px;
 }
 
 /* Hide the images by default */
