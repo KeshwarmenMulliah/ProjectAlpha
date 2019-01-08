@@ -38,7 +38,8 @@
 
  
 .posts{
-  grid-area:posts;
+ grid-area:posts;
+ float:left;
 
  }
  
