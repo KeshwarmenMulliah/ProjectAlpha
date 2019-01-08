@@ -53,8 +53,9 @@
 
 
  .nav{
+  grid-column:1/5;
+ } 
 
- }
  .slideshow-container{
   grid-column:1/5;
 
