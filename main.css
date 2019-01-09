@@ -79,9 +79,12 @@
 
  }
  
-.footer{
+.projects{
   grid-column:4/5;
  
  }
+.footer{
+grid-column:1/5;
+}
  
 }
